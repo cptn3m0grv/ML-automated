@@ -4,7 +4,7 @@ from keras_preprocessing.image import ImageDataGenerator
 
 model = Sequential()
 
-model.add(Convolution2D(filters = 32,
+model.add(Convolution2D(filters = 30,
                         kernel_size = (3, 3),
                         activation = 'relu',
                         input_shape = (64, 64 ,3)))
